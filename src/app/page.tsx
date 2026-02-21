@@ -2,7 +2,7 @@
 import { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import NewsCard from "@/components/NewsCard";
-import { Article } from "@/components/types";
+import { Article } from "@/types/types";
 
 export default function Home() {
   const [news, setNews] = useState<Article[]>([]);
